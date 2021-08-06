@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "stephenjude/braincert-laravel",
+    "description": "BrainCert's Virtual Classroom Laravel SDK",
     "keywords": [
-        ":vendor_name",
+        "stephenjude",
         "laravel",
-        "package_slug"
+        "braincert-laravel"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/stephenjude/braincert-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "stephenjude",
+            "email": "hello@stephenjude.me",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Stephenjude\\Braincert\\": "src",
+            "Stephenjude\\Braincert\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Stephenjude\\Braincert\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Stephenjude\\Braincert\\BraincertServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "Braincert": "Stephenjude\\Braincert\\BraincertFacade"
             }
         }
     },

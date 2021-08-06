@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Stephenjude\Braincert\Tests;
 
 class ExampleTest extends TestCase
 {

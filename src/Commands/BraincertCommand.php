@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Stephenjude\Braincert\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BraincertCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'braincert-laravel';
 
     public $description = 'My command';
 
