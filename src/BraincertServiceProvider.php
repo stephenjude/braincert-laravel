@@ -4,7 +4,6 @@ namespace Stephenjude\Braincert;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Stephenjude\Braincert\Exceptions\BraincertCommand;
 
 class BraincertServiceProvider extends PackageServiceProvider
 {
