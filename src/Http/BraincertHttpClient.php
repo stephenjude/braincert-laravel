@@ -41,7 +41,7 @@ abstract class BraincertHttpClient
     {
         $param = array_merge($param, [
             'apikey' => $this->apiKey,
-            'format' => config('braincert-laravel.format')
+            'format' => config('braincert-laravel.format'),
         ]);
 
         $path = $this->baseUrl . $path . '?' . http_build_query($param);
@@ -66,5 +66,3 @@ abstract class BraincertHttpClient
         }
     }
 }
-
-

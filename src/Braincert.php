@@ -120,7 +120,7 @@ class Braincert extends BraincertHttpClient
     public function listRemainingAttendees($classId)
     {
         $response = $this->http('availableAttendees', [
-            'class_id' => $classId
+            'class_id' => $classId,
         ]);
 
         $this->thowExeptionIfError($response);
@@ -189,7 +189,6 @@ class Braincert extends BraincertHttpClient
 
         return $response->json();
     }
-
 
     /**
      * @param int $discountId
