@@ -33,11 +33,11 @@ abstract class BraincertHttpClient
     }
 
     /**
-     * @param $path
+     * @param string $path
      * @param array $param
      * @return ClientResponse
      */
-    public function http($path, $param = [])
+    public function http(string $path, $param = []): ClientResponse
     {
         $param = array_merge($param, [
             'apikey' => $this->apiKey,

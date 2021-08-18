@@ -27,10 +27,5 @@ class TestCase extends Orchestra
     public function getEnvironmentSetUp($app)
     {
         config()->set('database.default', 'testing');
-
-        /*
-        include_once __DIR__.'/../database/migrations/create_braincert-laravel_table.php.stub';
-        (new \CreatePackageTable())->up();
-        */
     }
 }
